@@ -23,7 +23,7 @@ INA219 supports various measurements read out including; Shunt voltage, Load vol
 
 
 Serial plotter is a tool in Arduino IDE which plot the printed serial value into a graphic data, several things should be noted;
-* X axis represents the number of data point.
+* X axis represents the number of data points.
 * Y axis will auto scale to the highest and lowest data value. Fixating the axis range by printing out the upper and lower value along with the measured value.
 * Serial plotter only allows 500 values maximum to be displayed within the plot. Any more then the oldest value will be discarded first (FIFO).
 * Label the plotted value by printing the "Label_name:" before the labeled value (Label_name = your label name).
