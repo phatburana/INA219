@@ -3,11 +3,12 @@ This repository is created to support the power consumption test, measuring load
 
 # Wiring Diagram
 The INA219 is a High Side DC Current Sensor, in order to measure the load's consumption profile, the module is connected in series to the high side of the component that powers the load.
+
+![image](https://user-images.githubusercontent.com/58856852/146151011-2de5da26-1b45-400e-8d67-ec35aedebe55.png)
+
 ## Pinout
 On R3 and later Arduinos, you can connect to the new dedicated SDA & SCL pins next to the AREF pin.  On pre-R3 Megas, SDA & SCL are on pins 20 & 21.
 
-
-![image](https://user-images.githubusercontent.com/58856852/146151011-2de5da26-1b45-400e-8d67-ec35aedebe55.png)
 
 # The code
 ## INA219
